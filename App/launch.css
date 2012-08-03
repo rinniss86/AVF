@@ -1,0 +1,66 @@
+/* HTML */
+html {
+	font-family:"Helvetica CY", sans-serif;
+	background-color: #073B69;
+	margin: 5px;
+	padding: 5px;
+} /* HTML end */
+
+/* BUTTON */
+button {
+	font-size:15px;
+	background-color: #C1CED9;
+	border:1px solid #FFFFFF;
+	-webkit-border-radius:10px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+
+/* IMG */
+img{
+
+	-webkit-border-radius:10px;
+	
+}
+
+
+/* SECTION */
+
+section{
+
+	border:3px solid #FFFFFF;
+	-webkit-border-radius:10px;
+	
+	
+}
+
+/* P */
+p{
+	font-size: 30px;
+	color: #FFFFFF;
+	
+}
+/* footer class */
+.foot{
+	font-size: 15px;
+	color: #000000;
+}
+
+/*apple buttons */
+.apple{
+	background: url('images/apple.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	
+}
+
+/* android buttons */
+.android{
+	
+	background: url('images/android.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+}
