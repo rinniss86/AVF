@@ -1,284 +1,71 @@
-<!doctype html>  
-<html lang="en">
+<html>
 	<head>
-
-		<meta charset="utf-8">
-	
-		<title>Food! OM NOM NOM!</title>
-	
-	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+		<meta charset="utf-8" />
+		<meta name="description" content="Our very first HTML5 document." />
+		<meta name="keywords" content="html5, mobile development. Full Sail University" />
+		<meta robots="robots" content="index, follow" />
+		<meta name="robots" content="noidex, nofollow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="launch.css" type="text/css" />
+	</head>
+	<title>Launch</title>
 	
-	<!-- Mobile IE needs ClearType for smoothing fonts -->
-		<meta http-equiv="cleartype" content="on">
+	<body>
 	
-	<!-- StyleSheets under here -->
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	
-	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
-	<script src="js/libs/modernizr.custom.min.js"></script>
+		<center><img src="images/OmNomNom.png" />
+		</br>
+		</br> <!-- Logo -->
+		
+		<section> <!-- Crud App Section -->
+		<ul>
+			<p>Crud Apps</p>
+			<button><a href="crud/index.html" id="oCrud">Original</a></button>
+			<button><a href="#" id="rCrud">Revised</a></button>
+		</ul>
+		</section> 
+		</br>
+		</br> <!-- Crud App Section end -->
+		
+		
+		
+		<section> <!-- iOS Native Features Section -->
+			<ul>
+			<p>iOS</p>
+			<button class="apple"><a href="#" id=""></a></button>
+			<button class="apple"><a href="#" id=""></a></button>
+			</ul>
 
-</head>
-<body>
-
-	<div data-role="page" id="home">
-	
-		<div data-role="header" data-position="fixed" data-theme="a">
-		</div>
-					<center><img src="images/OmNomNom.png" /></center>
 		
-		<div data-role="content">
-			<label for="search-basic">Search:</label>
-			<input type="search" name="search" id="searc-basic" value="" />
-
-			<p><a href="#cook" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b"><img src="images/Cook Your Own.png" />Cook Your Own</a></p>
-			<p><a href="#pickup" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b"><img src="images/Pick Up.png" />Pick Up</a></p>
-			<p><a href="#delivery" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b"><img src="images/Delivery.png" />Delivery</a></p>
-			<p><a href="#sitdown" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b"><img src="images/Sit Down.png" />Sit Down</a></p>
-			<a href="additem.html" data-role="button" data-icon="plus" data-iconpos="right" data-theme="b">Food</a>
-					</div>
+		</section> <!-- iOS Native Features Section End -->
+		</br>
+		</br>
 		
-		<div data-role="footer" data-id="home">
-			<div data-role="navbar">
-				<ul>
-					
-					<li><a href="#home" data-icon="home">Home</a></li>
-				</ul>
-			</div>
-
-		</div>
 		
-	
-	</div>
-	
-	<div data-role="page" id="cook" data-add-back-btn="true">
-	
-		<div data-role="header" data-theme="c">
-			<h1>Cook Your Own</h1>
-		</div>
-		<center><img src="images/OmNomNom.png" /></center>
-
-		<div data-role="content" data-theme="b">
-			<div class="ui-grid-a">
-				<div class="ui-block-a">
-					<ul data-role="listview" data-inset="true">
-						<li>
-							<a href="#construction">
-								<img src="images/china.png"/>
-								<h3>Chinese</h3>
-						</li></a>
-			<!-- <li data-role="list-divider"> List Divider code -->	
-						<li>
-							<a href="#construction">
-								<img src="images/spanish.png"/>	
-								<h3>Spanish</h3>
-						</li></a>
-				
-						<li>
-							<a href="#construction">
-								<img src="images/india.png"/>
-								<h3>Indian</h3>
-						</li></a>
-					</ul>	
-				</div>
-				
-				<div class="ui-block-b">
-					<ul data-role="listview" data-inset="true">
-						<li>
-							<a href="#construction">
-								<img src="images/usa.png"/>
-								<h3>American</h3>
-						</li></a>
-				
-						<li>
-							<a href="#construction">
-							<img src="images/italy.png" />
-								<h3>Italian</h3>
-						</li></a>
-				
-						<li>
-							<a href="#construction">
-								<img src="images/other.png" />
-								<h3>Other</h3>
-						</li></a>
-					</ul>
-				</div>	
-			</div>
-		</div>
-		
-		<div data-role="footer" data-id="home">
-			<div data-role="navbar">
-				<ul>
-					
-					<li><a href="#home" data-icon="home">Home</a></li>
-				</ul>
-			</div>
-
-		</div>
-		
-	
-	</div>
-	
-	<div data-role="page" id="pickup" data-add-back-btn="true">
-	
-		<div data-role="header" data-theme="c">
-			<h1>Pick Up</h1>
-		</div>
-		<center><img src="images/OmNomNom.png" /></center>
-		<div data-role="content">
-			<p>Under Construction</p>
-		</div>
-		
-		<div data-role="footer" data-id="home">
-			<div data-role="navbar">
-				<ul>
-					
-					<li><a href="#home" data-icon="home">Home</a></li>
-				</ul>
-			</div>
-
-		</div>
-		
-	
-	</div>
-	
-	<div data-role="page" id="delivery" data-add-back-btn="true">
-	
-		<div data-role="header" data-theme="c">
-			<h1>Delivery</h1>
-		</div>
-		<center><img src="images/OmNomNom.png" /></center>
-		<div data-role="content">
-			<p>Under Construction</p>
-		</div>
-		
-		<div data-role="footer" data-id="home">
-			<div data-role="navbar">
-				<ul>
-					
-					<li><a href="#home" data-icon="home">Home</a></li>
-				</ul>
-			</div>
-
-		</div>
-		
-	
-	</div>
-	
-	<div data-role="page" id="sitdown" data-add-back-btn="true">
-	
-		<div data-role="header" data-theme="c">
-			<h1>Sit Down</h1>
-		</div>
-		<center><img src="images/OmNomNom.png" /></center>
-		<div data-role="content">
-		
-			<div data-role="collapsible-set">
+		<section> <!-- Android Native Features Section -->
 			
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Chinese Restaurants</h3>
-					<p>P.F. Changs</p>
-					<p>Garden Wok</p>
-					<p>Manchu Garden</p>
-				</div>
-				
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Spanish Restaurants</h3>
-					<p>Pollo Ala Brasa</p>
-					<p>La Herradura</p>
-					<p>Coyote Flacco</p>
-				</div>
-				
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Indian Restaurants</h3>
-					<p>Tandoori</p>
-					<p>Rani Mahal</p>
-					<p>Ambadi</p>
-				</div>
-				
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>American Restaurants</h3>
-					<p>Buffalo Wild Wings</p>
-					<p>Friendly's</p>
-					<p>Applebees</p>
-				</div>
-				
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Italian Restaurants</h3>
-					<p>Marianacci's</p>
-					<p>Arrosto</p>
-					<p>Il Sogno Ristorante</p>
-				</div>
-				
-				<div data-role="collapsible" data-collapsed="true" data-theme="b">
-					<h3>Other Restaurants</h3>
-					<p>Kalbi House (Korean)</p>
-					<p>Brasario's (Brazillian)</p>
-					<p>Niko's Greek Taverna (Greek)</p>
-				</div>
-				
-			</div>
+			<ul>
+			<p>Android</p>
+			<button class="android"><a href="#" id=""></a></button>
+			<button class="android"><a href="#" id=""></a></button>
+			</ul>
+		
+		</section> <!-- Android Native Features Section End -->
+		</br>
+		</br>
+		
+	
+		<button><a href="research.html" id="research">Research</a></button>
+		
+	
+		<footer>
 			
-		</div>
-		
-		<div data-role="footer" data-id="home">
-			<div data-role="navbar">
-				<ul>
-
-					
-					<li><a href="#home" data-icon="home">Home</a></li>
-					
-				</ul>
-			</div>
-		</div>
-		
-	</div>
-	
+			<p class="foot">Richard Inniss
+			</br>AVF1208</p>
 			
-		
-		<div data-role="page" id="construction" data-add-back-btn="true">
+		</footer></center>
 	
-		<div data-role="header">
-			<h1>Under Construction!</h1>
-		</div>
-		<center><img src="images/OmNomNom.png" /></center>
-		<div data-role="content">
-			<p>Under Construction!</p>
-		</div>
-		
-		<div data-role="footer" data-id="home">
-			<div data-role="navbar">
-				<ul>
-					
-					<li><a href="#home" data-icon="home">Home</a></li>
-				</ul>
-			</div>
-
-		</div>
-		
-	
-	</div>
-
-	
-	
-	
-
-	
-	</div>
-
-		
-		
-		<!-- JavaScript Here -->
-		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-</body>
-	
-	
-
-
-
+	</body>
 </html>

@@ -22,6 +22,7 @@ button {
 img{
 
 	-webkit-border-radius:10px;
+	padding: 9px;
 	
 }
 
@@ -32,8 +33,7 @@ section{
 
 	border:3px solid #FFFFFF;
 	-webkit-border-radius:10px;
-	
-	
+		
 }
 
 /* P */
@@ -63,4 +63,32 @@ p{
 	background: url('images/android.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
+}
+
+/* Research<p> */
+.week{
+	
+	font-size: 18px;
+}
+
+/* <p> Discussion */
+.discuss{
+
+	font-color: #C1CED9;
+	font-size: 30px;
+}
+
+div{
+	
+	text-align:center;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	width:100%;
+	float:center;
+	
+}
+
+li{
+	
+	display:inline;
 }
