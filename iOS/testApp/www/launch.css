@@ -50,9 +50,9 @@ p{
 
 /*apple buttons */
 .apple{
-	background: url('images/apple.jpg');
+	/*background: url('images/apple.jpg');*/
 	background-position:center;
-	background-repeat:no-repeat;
+	/*background-repeat:no-repeat;*/
 	
 	
 }
@@ -97,4 +97,9 @@ li{
 ul{
 	
 	padding-left:0;
+}
+
+.geo2{
+	
+	border:none;
 }
