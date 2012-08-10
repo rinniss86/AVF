@@ -60,9 +60,9 @@ p{
 /* android buttons */
 .android{
 	
-	background: url('images/android.jpg');
+	/*background: url('images/android.jpg');*/
 	background-position:center;
-	background-repeat:no-repeat;
+	/*background-repeat:no-repeat;*/
 }
 
 /* Research<p> */
