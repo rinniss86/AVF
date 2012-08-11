@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Our very first HTML5 document." />
+		<meta name="keywords" content="html5, mobile development. Full Sail University" />
+		<meta robots="robots" content="index, follow" />
+		<meta name="robots" content="noidex, nofollow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<link rel="stylesheet" href="launch.css" type="text/css" />
+	</head>
+	<title>Geolocation</title>
+	
+	<body>
+		<div class="home" id="home">
+			<a href="index.html">
+				<img src="images/OmNomNom.png" id="logo"/>
+			</a>	
+		</div>
+		
+		<div class="geolocation" id="geo">
+			<section>
+				<p>
+					Location
+				</p>
+				<div class="content">
+					<button onclick="checkGeo();"> Where are you?</button>
+				</div>
+			</section>	
+			
+			<section id="mapOutline" class="geo2" style="display:none;">
+			
+				<div id="display">
+					<img id="map"/>
+				</div>
+				
+			</section>		
+		</div>
+		
+		<!-- javaScript Here -->
+		<script type="text/javascript" src="js/geo.js"></script>
+		<script type="text/javascript" src="cordova-2.0.0.js"></script>
+	</body>
+</html>
+
