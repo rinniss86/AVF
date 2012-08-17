@@ -1,4 +1,4 @@
-/* HTML */
+ /* HTML */
 html {
 	font-family:"Helvetica CY", sans-serif;
 	background-color: #073B69;
@@ -89,6 +89,16 @@ div{
 	
 }
 
+.pic{
+	
+	margin-left:0 auto;
+	margin-right:0 auto;
+	width:350px;
+	height:350px;
+	float:center;
+	
+}
+
 li{
 	
 	display:inline;
@@ -97,4 +107,9 @@ li{
 ul{
 	
 	padding-left:0;
+}
+
+.geo2{
+	
+	border:none;
 }

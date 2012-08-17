@@ -28,6 +28,8 @@
 	</array>
 	<key>Plugins</key>
 	<dict>
+		<key>Camera</key>
+		<string>CDVCamera</string>
 		<key>Device</key>
 		<string>CDVDevice</string>
 		<key>Logger</key>

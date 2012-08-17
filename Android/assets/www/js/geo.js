@@ -28,7 +28,7 @@ function onDeviceReady() {
 
 
 
-function checkGeo () {
+function checkGeo() {
     
     navigator.geolocation.getCurrentPosition(onSuccess, onError, { enableHighAccuracy: true });
 }
