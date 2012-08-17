@@ -1,4 +1,4 @@
-/* HTML */
+ /* HTML */
 html {
 	font-family:"Helvetica CY", sans-serif;
 	background-color: #073B69;
@@ -40,6 +40,9 @@ section{
 p{
 	font-size: 30px;
 	color: #FFFFFF;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	text-align:center;
 	
 }
 /* footer class */
@@ -86,6 +89,16 @@ div{
 	width:100%;
 	float:center;
 	
+	
+}
+
+.pic{
+	
+	margin-left:0 auto;
+	margin-right:0 auto;
+	width:350px;
+	height:350px;
+	float:center;
 	
 }
 
