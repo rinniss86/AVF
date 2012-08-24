@@ -9,7 +9,8 @@
 		<meta name="viewport" content="target-densitydpi=device-dpi" />
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320"/>
-		<link rel="stylesheet" href="launch.css" type="text/css" />
+		<link rel="stylesheet" href="launch.css" media="screen and (min-width: 1024px)" type="text/css" />
+		<link rel="stylesheet" href="launch.css" media="screen and (max-width: 480px) and (orientation: landscape" />
 	</head>
 	<title>Launch</title>
 	
@@ -20,59 +21,105 @@
 		</br> <!-- Logo -->
 		
 		<section> <!-- Crud App Section -->
-		<ul>
+		
 			<p>Crud Apps</p>
-			<button><a href="crud/additem.html" id="oCrud">Original</a></button>
-			<button><a href="#" id="rCrud">Revised</a></button>
-		</ul>
+			<a href="crud/additem.html" id="oCrud"><button class="apple"></button></a>
+			<p class="iText">
+			Original
+			</p>
+			<a href="#" id="rCrud"><button class="apple"></button></a>
+			<p class="iText">
+			Revised
+			</p>
+		
 		</section> 
 		</br>
 		</br> <!-- Crud App Section end -->
 		
 		
 		
-		<section> <!-- iOS Native Features Section -->
-			<ul>
-			<p>iOS</p>
-			<button class="apple"><a href="#" id=""></a></button>
-			<button class="apple"><a href="#" id=""></a></button>
-			</ul>
-
+		<section class="iOS"> <!-- iOS Native Features Section -->
+			
+			<p>Android</p>
+			
+				<a href="geo.html" id="iGeo">
+				<button class="apple">
+				</button>
+				</a>
+				<p class="iText">
+					Geolocation
+				</p>
+			
+			
+				<a href="alert.html" id="alert">
+				<button class="apple">
+				</button>
+				</a>
+				<p class="iText">
+					Alert
+				</p>
+			
+			
+				<a href="accel.html" id="accel">
+				<button class="apple">
+				</button>
+				</a>
+				<p class="iText">
+					Accelerometer
+				</p>
+				
+			
+				<a href="camera.html" id="camera">
+				<button class="apple">
+				</button>
+				</a>
+				<p class="iText">
+					Camera
+				</p>	
+				
+			
+			
+			
+				<a href="connection.html" id="connection">
+				<button class="apple">
+				</button>
+				</a>
+				<p class="iText">
+					Network
+				</p>	
+				
+			
 		
 		</section> <!-- iOS Native Features Section End -->
 		</br>
-		</br>
+		
+		<section>
+			<a href="research.html" id="research">
+			<button class="research">
+			</button>
+			</a>
+			<p class="iText">
+				Research
+			</p>
 		
 		
-		<section> <!-- Android Native Features Section -->
-			
-			<ul>
-			<p>Android</p>
-			<button class="android"><a href="accel.html" id="accel">Accelerometer</a></button>
-			<button class="android"><a href="alert.html" id="alert">Alert</a></button>
-			<button class="android"><a href="geo.html" id="geo">Geolocation</a></button>
-			<button class="android"><a href="camera.html" id="camera">Camera</a></button>
-			<button class="android"><a href="connection.html" id="connection">Network</a></button>
-			</ul>
-		
-		</section> <!-- Android Native Features Section End -->
-		</br>
-		</br>
-		
-	
-		<button><a href="research.html" id="research">Research</a></button>
-		<button><a href="video.html" id="video">Videos</a></button>
+			<a href="video.html" id="video">
+			<button class="video">
+			</button>
+			</a>
+			<p class="iText">
+				Video
+			</p>
+		</section>
 		
 	
 		<footer>
 			
 			<p class="foot">Richard Inniss
 			</br>AVF1208</p>
-
-		</footer></center>
-
-
-		<script type="text/javascript" src="cordova-2.0.0.js"></script>
-	
+			
+		</footer>
+		<!-- javaScript Here -->
+	<script type="text/javascript" src="cordova-2.0.0.js"></script>
 	</body>
 </html>

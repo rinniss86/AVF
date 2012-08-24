@@ -25,6 +25,7 @@ button {
 	padding: 20px;
 	height: 72px;
 	width: 72px;
+	float:center;
 
 }
 
@@ -34,6 +35,7 @@ img{
 
 	-webkit-border-radius:10px;
 	padding: 9px;
+	float: center;
 	
 }
 
@@ -44,6 +46,7 @@ section{
 
 	border:3px solid #FFFFFF;
 	-webkit-border-radius:10px;
+	float:center;
 	
 		
 }
@@ -71,11 +74,28 @@ p{
 
 /*apple buttons */
 .apple{
-	/*background: url('images/apple.jpg');*/
+	background: url('images/Apple.png');
 	background-position:center;
-	/*background-repeat:no-repeat;*/
+	background-repeat:no-repeat;
+	float:center;
 	
 	
+}
+
+.research{
+	background: url('images/research.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	float:center;
+}
+
+.video{
+	background: url('images/video.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	float:center;
+
+
 }
 
 /* android buttons */
@@ -108,6 +128,7 @@ div{
 	float:center;
 	
 	
+	
 }
 
 .pic{
@@ -120,18 +141,19 @@ div{
 	
 }
 
-li{
-	
-	display:inline;
+
 }
 
 ul{
-	display: block;
+	
+	display:inline;
 	padding-left:0;
-	display: block,inline;
+	
+
 }
 
 .geo2{
 	
 	border:none;
 }
+

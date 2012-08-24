@@ -11,12 +11,12 @@
 		<meta name="MobileOptimized" content="320"/>
 		<link rel="stylesheet" href="launch.css" type="text/css" />
 	</head>
-	<title>Research</title>
+	<title>Alert</title>
 	
 	<body onload="onLoad()">
 		<div>
 			<a href="index.html">
-				<img src="images/OmNomNom.png" id="logo"/>
+				<center><img src="images/OmNomNom.png" id="logo"/></center>
 			</a>
 		</div>
 		
@@ -26,10 +26,16 @@
 					Alert
 				</p>
 				<div class="content">
-					<button id="alert" onclick="showAlert(); return false;"> View Alert </button>
+					<button class="apple" id="alert" onclick="showAlert(); return false;"></button>
+					<p class="iText">
+						Show Alert
+					</p>
 				</div>
 				<div class="content">
-					<button id="confirm" onclick="showConfirm(); return false;">View Confirm</button>
+					<button class="apple" id="confirm" onclick="showConfirm(); return false;"></button>
+					<p class="iText">
+						Show Confirm
+					</p>
 				</div>
 			</section>
 		</div>

@@ -70,14 +70,11 @@ var pictureSource;   // picture source
     // A button will call this function
     //
     function getPhoto(source) {
-      // Retrieve image file location from specified source
-      navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50, 
-        destinationType: destinationType.FILE_URL,
-        targetWidth: 100,
-        targetHeight: 100,
-        saveToPhotoAlbum: true,
-        sourceType: Camera.PictureSourceType.PHOTOLIBRARY });
-    }
+   // Retrieve image file location from specified source
+   navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50,
+   destinationType: destinationType.FILE_URI,
+   sourceType: source });
+   }
 
     // Called if something bad happens.
     // 
@@ -93,4 +90,7 @@ var pictureSource;   // picture source
     }
     
 
+
+
+         
          

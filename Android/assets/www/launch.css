@@ -1,9 +1,18 @@
  /* HTML */
 html {
 	font-family:"Helvetica CY", sans-serif;
-	background-color: #073B69;
 	margin: 5px;
 	padding: 5px;
+	background: #7d7e7d; /* Old browsers */
+	background: #4f4f4f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4f4f4f 0%, #0e0e0e 51%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4f4f4f), color-stop(51%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4f4f4f 0%,#0e0e0e 51%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4f4f4f 0%,#0e0e0e 51%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4f4f4f 0%,#0e0e0e 51%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4f4f4f 0%,#0e0e0e 51%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
 } /* HTML end */
 
 /* BUTTON */
@@ -14,6 +23,9 @@ button {
 	-webkit-border-radius:10px;
 	margin: 20px;
 	padding: 20px;
+	height: 72px;
+	width: 72px;
+	float:center;
 
 }
 
@@ -23,6 +35,7 @@ img{
 
 	-webkit-border-radius:10px;
 	padding: 9px;
+	float: center;
 	
 }
 
@@ -33,6 +46,8 @@ section{
 
 	border:3px solid #FFFFFF;
 	-webkit-border-radius:10px;
+	float:center;
+	
 		
 }
 
@@ -40,29 +55,55 @@ section{
 p{
 	font-size: 30px;
 	color: #FFFFFF;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	text-align:center;
 	
+}
+
+/* Icon Text */
+
+.iText{
+	font-size: 20px;
 }
 /* footer class */
 .foot{
 	font-size: 15px;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 /*apple buttons */
 .apple{
-	background: url('images/apple.jpg');
+	background: url('images/droid.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
+	float:center;
 	
 	
+}
+
+.research{
+	background: url('images/research.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	float:center;
+}
+
+.video{
+	background: url('images/video.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	float:center;
+
+
 }
 
 /* android buttons */
 .android{
 	
-	/*background: url('images/android.jpg');*/
+	background: url('images/android.jpg');
 	background-position:center;
-	/*background-repeat:no-repeat;*/
+	background-repeat:no-repeat;
 }
 
 /* Research<p> */
@@ -87,6 +128,7 @@ div{
 	float:center;
 	
 	
+	
 }
 
 .pic{
@@ -99,17 +141,19 @@ div{
 	
 }
 
-li{
-	
-	display:inline;
+
 }
 
 ul{
 	
+	display:inline;
 	padding-left:0;
+	
+
 }
 
 .geo2{
 	
 	border:none;
 }
+
