@@ -18,23 +18,29 @@
 	
 		<div class="home" id="home">
 			<a href="index.html">
-				<img src="images/OmNomNom.png" id="logo"/>
+				<center><img src="images/OmNomNom.png" id="logo"/></center>
 			</a>	
 		</div
-	
+		<div>
 		<section>
 			<div class="content">
-				<button  onclick="capturePhoto();">Capture Photo</button> <br>
-				<button  onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
-				<button  onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
-				<button  onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
+				<button class="apple" onclick="capturePhoto();"></button>
+				<p class="iText">
+					Capture
+				</p> <br>
+				<button class="apple" onclick="capturePhotoEdit();"></button>
+				<p class="iText">
+					Capture Editable Photo
+				</p> <br>
+				
 				
 				<div>
-					<img class="pic" style="display:none;" id="smallImage" src="" /> 
+					<center><img class="pic" style="display:none;" id="smallImage" src="" /> </center>
 					<!<img class="pic" id="largeImage" src="" />
 				</div>
 			</div>	
-	</section>	
+		</section>
+		</div>	
 		
 		<!-- javaScript Here -->
 		<script type="text/javascript" src="js/camera.js"></script>
